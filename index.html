@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolkata Metro rail corporations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Kolkata Metro Logo">
+    <h1>Kolkata Metro Rail Corporations</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Home</a></li>
+        <li><a href="#recharge">Recharge Smart Card</a></li>
+        <li><a href="#book">Booking</a></li>
+        <li><a href="#routes">Routes</a></li>
+        <li><a href="#fares">Fares</a></li>
+        <li><a href="#stations">Underwater route</a></li>
+        <li><a href="#old">Since 1984</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="recharge">
+    <div class="container">
+      <h2>Recharge Smart Card</h2>
+      <p>Recharge your Kolkata Metro smart card online for a hassle-free journey.</p>
+      <form>
+        <label for="cardNumber">Smart Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter Smart Card Number" required>
+        
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter Recharge Amount" required>
+        
+        <button type="submit">Recharge Now</button>
+      </form>
+      <img src="card.jpg" alt="Kolkata Metro Logo">
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>About Kolkata Metro</h2>
+    <p>The Kolkata Metro is a rapid transit system serving the city of Kolkata and the wider Kolkata Metropolitan Region in West Bengal, India. Opening in 1984, it was the first operational rapid transit system in India, beside being the second busiest and fourth-longest metro network in India.</p>
+    <img src="kolkatametro.jpg" alt="Kolkata Metro">
+    <section id="book">
+    <h3>Book Your Ticket</h3>
+    <form action="#" method="post" id="booking-form">
+      <label for="source">Source Station:</label>
+      <select id="source" name="source">
+        <option value="station1">Dum Dum</option>
+        <option value="station2">Kavi Subhas</option>
+        <option value="station3">Karunamoye</option>
+        <!-- Add more stations as needed -->
+      </select>
+      <label for="destination">Destination Station:</label>
+      <select id="destination" name="destination">
+        <option value="station1">Dakshineswar</option>
+        <option value="station2">Howrah</option>
+        <option value="station3">Sealdah</option>
+        <!-- Add more stations as needed -->
+      </select>
+      <h3>Choose Card Type</h3>
+      <div class="card-type">
+        <input type="radio" id="general-card" name="card-type" value="general" checked>
+        <label for="general-card">Credit Card</label>
+        <input type="radio" id="student-card" name="card-type" value="student">
+        <label for="student-card">Dedit card</label>
+        <input type="radio" id="student-card" name="card-type" value="student">
+        <label for="student-card">UPI</label>
+      </div>
+      <h3>Payment Details</h3>
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number" placeholder="Enter card number">
+      <label for="expiry">Expiry Date:</label>
+      <input type="text" id="expiry" name="expiry" placeholder="MM/YY">
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" placeholder="CVV">
+      <input type="submit" value="Proceed to Payment">
+    </form>
+</section>
+  </section>
+  </section>
+  
+  <section id="routes">
+    <h2>Currently Running routes</h2>
+    <p>1.Blue Line 2.Pink line 3. Orange Line 4.Green line</Map></p>
+    <img src="route.png" alt="Metro Routes">
+    <img src="orange.jpg" alt="Metro Routes">
+  </section>
+  
+  <section id="fares">
+    <h2>Fares</h2>
+    <p>Check out our fare chart and ticketing information.</p>
+    <img src="fare.jpeg" alt="Metro Fares">
+  </section>
+  
+  <section id="stations">
+    <h2>India's First Underwater Metro</h2>
+    <p>The Howrah Maidan-Esplanade section, a groundbreaking addition to the metropolis' transportation network and touted to be the first transportation tunnel under any mighty river in India, has the deepest metro station in the country -- the Howrah Metro station..</p>
+    <img src="stations.jpg" alt="Metro Stations">
+    <img src="pmmodi.jpg" alt="Metro Stations">
+  </section>
+  
+  <section id="old">
+    <h2>Serving City of joy since 1984</h2>
+    <p></p>
+    <img src="old.jpeg" alt="Metro Timetable">
+    <img src="old2.jpg" alt="Metro Timetable">
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>You can reach us at:</p>
+    <address>
+      Registered Office<br>
+      Kolkata Metro Rail Corporation Ltd
+      HRBC Complex
+      KMRCL Bhawan
+      2nd & 3rd Floor,
+      Munsi Premchand Sarani
+      Kolkata - 700021<br>
+      Dial 2226-4817 / 9007041844
+      for all queries by metro commuters on train information, smart card related issues, grievances etc
+      Email: info@transportdepartment.com<br>
+    </address>
+</section>
+
+</body>
+</html>

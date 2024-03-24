@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  header {
+    background-color: #007cb0;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  
+  section img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007cb0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005b82;
+  }
+  
+  /* Payment Styles */
+  
+  #booking-form h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  #booking-form input[type="text"] {
+    width: calc(100% - 80px); /* Adjust based on your layout */
+  }
+  .card-type {
+    margin-bottom: 15px;
+  }
+  
+  .card-type input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .card-type label {
+    font-weight: normal;
+  }
+  /* Contact Us Section Styles */
+
+#contact {
+    padding: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .recharge-section {
+    background-color: #f4f4f4;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .recharge-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .recharge-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005cbf;
+  }
+  .contact ul li img {
+    width: 20px; /* Adjust icon size as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between icon and text */
+}
+  
+  @media only screen and (max-width: 768px) {
+    header {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    nav ul {
+      display: block;
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 10px;
+    }
+    #logo {
+        width: 150px; /* Adjust the width as needed for mobile */
+      }
+    }
+  }  
